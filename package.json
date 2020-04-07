@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JakeRoggenbuck/testDiscordBot/issues"
   },
-  "homepage": "https://github.com/JakeRoggenbuck/testDiscordBot#readme"
+  "homepage": "https://github.com/JakeRoggenbuck/testDiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^12.1.1"
+  }
 }
