@@ -7,7 +7,7 @@ client.once('ready', () => {
 })
 
 client.on('message', message => {
-	var myRe = /[\W]{1,}[l,L]it|^[l,L]it/g;
+	var myRe = /=lit/g;
 	if(myRe.test(message.content)) {
 		console.log(message.content);
 		message.channel.send("https://pics.onsizzle.com/worth-investing-in-deep-fried-travis-scott-29075721.png")
