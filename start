@@ -1,2 +1,0 @@
-pkill -f 'nuva'
-bash -c "exec -a nuva node index.js &"
