@@ -8,8 +8,9 @@ client.once('ready', () => {
 
 client.on('message', message => {
 	console.log(message.content);
-
-	if(message.content.includes('lit')) {
+	
+	var myRe = /[\W]{1,}lit|^lit/g;
+	if(myRe.test(message.content)) {	
 		message.channel.send("https://pics.onsizzle.com/worth-investing-in-deep-fried-travis-scott-29075721.png")
 	}
 })
